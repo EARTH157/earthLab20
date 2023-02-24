@@ -5,13 +5,6 @@ struct Rect{
 	double x,y,w,h;
 };
 
-#include<iostream>
-using namespace std;
-
-struct Rect{
-	double x,y,w,h;
-};
-
 double overlap(Rect *R1,Rect *R2){
     Rect RAns;
     if((R1->x + R1->w) - R2->x > 0){
